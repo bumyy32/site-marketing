@@ -276,11 +276,40 @@
 
 
         <form id="frm-cadastro" action="" method="POST" enctype="multipart/form-data">
-          <input type="text" class="form-control" name="nome" placeholder="insira seu nome:" required>
-          <input type="email" class="form-control" name="email" placeholder="insira seu endereço de email:" required>
-        </form>
-      </div>
+          <input type="text" class="form-control mb-3" name="nome" placeholder="insira seu nome:" required>
+          <input type="email" class="form-control mb-3" name="email" placeholder="insira seu endereço de email:" required>
+          <input type="range" class="form-range" name="idade" id="idade" min="12" max="70" value="12" >
+          <p>Idade: <span id="info-idade"></span></p>
 
+          <p>Sexo:</p>
+          <input type="radio" name="sexo" value="Feminino" class="form-check-input" required> Feminino
+          <input type="radio" name="sexo" value="Masculino" class="form-check-input" required> Masculino
+
+          <p class="mt-3">Atividades de lazer
+          <br><input type="checkbox" name="lazer[]" value="Cinema" class="form-check-input"> Cinema
+          <br><input type="checkbox" name="lazer[]" value="Esportes" class="form-check-input"> Esportes
+          <br><input type="checkbox" name="lazer[]" value="Viajar" class="form-check-input"> Viajar
+          <br><input type="checkbox" name="lazer[]" value="Assistir séries" class="form-check-input"> Assistir séries
+          <br><input type="checkbox" name="lazer[]" value="Videogame" class="form-check-input"> Videogame
+          </p>
+
+          <p class="mt-3">Foto de perfil: (opcional)</pclass="mt-3">
+          <input type="file" name="foto" id="foto" class="form-control">
+
+          <p class="mt-3">Qual estado você mora?</p>
+            <select name="estado" id="estado" class="form-select">
+              <option>Selecione</option>
+              <option value="Acre">Acre</option>
+              <option value="Bahia">Bahia</option>
+              <option value="Ceará">Ceará</option>
+        </form>
+        <br>
+
+        <input type="password" name="senha" id="senha" placeholder="Digite uma senha" class="form-control mt-3">
+
+        <br>
+        <input type="submit" value="Enviar" class="btn btn-primary">
+      </div>
       <!-- Fim do formulario -->
       <!-- scripts do b5 e link do js  -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
