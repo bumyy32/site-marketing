@@ -1,0 +1,57 @@
+body{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.bg-darkorange{
+    background-color: darkorange;
+}
+
+.navbar{
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+
+#carroseldestaque{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.titulo{
+    border-bottom: 8px solid grey;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.carousel-caption h5, .carousel-caption p{
+    color: whitesmoke;
+    text-shadow: 1px 1px 0px black;
+}
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.459);
+    width: 50%;
+    margin: 0 auto;
+}
+
+.header1{
+    background-color: rgba(0,0,0);
+}
+
+.header2{
+    background-color: rgb(20, 33, 61);
+}
+
+.header3{
+    background-color: rgb( 252, 163, 17);
+}
+
+#planos .card-header{
+    color: whitesmoke;
+}
+
+#equipe .btn{
+    background-color: grey;
+    border-color: grey;
+    
+}
