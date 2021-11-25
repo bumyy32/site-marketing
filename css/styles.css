@@ -55,3 +55,15 @@ body{
     border-color: grey;
 
 }
+
+#seta-sobe{
+    background-color: rgba(0, 0, 0, 0.233);
+    color: white;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    padding-left: 8px;
+}
